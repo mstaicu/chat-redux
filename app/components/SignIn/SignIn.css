@@ -1,0 +1,43 @@
+.signin {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+}
+
+.signin:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.signin__button {
+  display: inline-block;
+  vertical-align: middle;
+
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+
+  color: #fff;
+  background: #2ecc71;
+
+  font-size: inherit;
+  text-align: left;
+
+  outline: none;
+
+  transition: all .3s;
+}
+
+.signin__button:hover {
+  cursor: pointer;
+
+  color: #2ecc71;
+  background: #fff;
+  border: 1px solid #2ecc71;
+
+  transition: all .3s;
+}

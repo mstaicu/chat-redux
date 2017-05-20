@@ -1,0 +1,83 @@
+.userinfo {
+  height: 90px;
+  padding-bottom: 10px;
+  user-select: none;
+}
+
+.userinfo:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.userinfo__left, .userinfo__right {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.userinfo__left {
+  width: 85%;
+  color: #575C65;
+}
+
+.userinfo__right {
+  width: 15%;
+}
+
+.userinfo__left:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.userinfo__avatar, .userinfo__name {
+  vertical-align: middle;
+}
+
+.userinfo__avatar {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+}
+
+.userinfo__name {
+  margin-left: 5px;
+}
+
+.userinfo__right {
+  text-align: center;
+}
+
+.userinfo__right:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.signout {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.signout__button {
+  display: inline-block;
+  height: 30px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3498db;
+  font-family: Helvetica;
+  outline: none;
+}
+
+.signout__button:hover {
+  cursor: pointer;
+}

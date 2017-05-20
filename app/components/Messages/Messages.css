@@ -1,0 +1,5 @@
+.chatmessages {
+  height: calc(100% - 236px);
+
+  overflow-y: scroll;
+}

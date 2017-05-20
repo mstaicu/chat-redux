@@ -1,0 +1,46 @@
+{
+  "name": "chatredux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index_bundle.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "prod": "webpack -p --config webpack.config.prod.js",
+    "test": "ava \"**/*.test.js\"",
+    "watch:test": "npm run test -- --watch"
+  },
+  "author": "mstaicu",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "firebase": "^3.9.0",
+    "html-webpack-plugin": "^2.24.0",
+    "lodash": "^4.17.4",
+    "normalize.css": "^7.0.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-loader": "^1.0.0",
+    "pretty-date": "^0.2.0",
+    "prop-types": "^15.5.9",
+    "react": "*",
+    "react-dom": "*",
+    "react-file-input": "^0.2.5",
+    "react-redux": "*",
+    "redux": "*",
+    "redux-saga": "*",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "ava": {
+    "require": "babel-register",
+    "babel": "inherit"
+  }
+}

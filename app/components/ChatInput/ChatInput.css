@@ -1,0 +1,54 @@
+.chatinput {
+  padding-top: 10px;
+}
+
+.chatinput__top {}
+
+.chatinput__bottom {
+  text-align: right;
+}
+
+.chatinput__textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+
+  overflow: auto;
+  outline: none;
+  box-shadow: none;
+  resize: none;
+
+  border-radius: 5px;
+
+  font-family: Helvetica;
+  font-size: 14px;
+
+  color: #575C65;
+}
+
+.chatinput__textarea::-webkit-input-placeholder {
+  font-family: Helvetica;
+  color: #DEE0E3;
+}
+
+.chatinput__submit {
+  display: inline-block;
+  height: 30px;
+
+  border: 0;
+  background: transparent;
+
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  font-size: 14px;
+
+  color: #3498db;
+
+  outline: none;
+}
+
+.chatinput__submit:hover {
+  cursor: pointer;
+}

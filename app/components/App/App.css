@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+:global(#app) {
+  height: 100%;
+  background: #fcfcfc;
+  text-align: center;
+
+  font-family: Helvetica;
+}
+
+:global(#app:before) {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.chat {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px;
+  height: 95%;
+  width: 50%;
+  background: #F1F5F8;
+  border-radius: 5px;
+  box-shadow: 0 11px 18px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.chat__auth {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
